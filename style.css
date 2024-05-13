@@ -4,14 +4,21 @@
     box-sizing: border-box;
     font-family: "Poppins" ,sans-serif;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:url(4886586.jpg) no-repeat;
+    background: url(4886586.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 85%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wrapper{
     width: 420px;
